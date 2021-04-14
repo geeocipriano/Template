@@ -62,6 +62,7 @@ header .container nav a {
 }
 
 main section.banner {
+  position: relative;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,7 +71,20 @@ main section.banner {
       -ms-flex-align: center;
           align-items: center;
   background-image: url("../header.jpg");
-  background-position: center right;
+  background-position: top right;
   background-size: cover;
+}
+
+main section.banner:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: #12002f;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=main.css.map */
