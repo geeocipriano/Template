@@ -19,10 +19,12 @@ body {
 }
 
 header {
+  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 99;
 }
 
 header .container {
@@ -62,6 +64,7 @@ header .container nav a {
 }
 
 main section.banner {
+  color: #fff;
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
@@ -86,5 +89,25 @@ main section.banner:after {
   z-index: 0;
   background-color: #12002f;
   opacity: 0.8;
+}
+
+main section.banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+main section.banner .container h1 {
+  font-size: 72px;
+  margin-bottom: 32px;
+}
+
+main section.banner .container h1 span {
+  color: #ff9fdb;
+}
+
+main section.banner .container h3 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 32px;
 }
 /*# sourceMappingURL=main.css.map */
