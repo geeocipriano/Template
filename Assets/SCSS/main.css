@@ -18,6 +18,17 @@ body {
   width: 100%;
 }
 
+.button {
+  display: inline-block;
+  color: #fff;
+  background-color: #ff9fdb;
+  padding: 12px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 header {
   color: #fff;
   position: fixed;
